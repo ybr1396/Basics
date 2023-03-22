@@ -1,0 +1,76 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: separate;
+  border: 10px dashed black;
+}
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+
+
+
+
+tbody tr:nth-child(odd) {
+  background-color:#3296a8;
+ 
+}
+
+tbody tr:nth-child(even) {
+  background-color:#3296a8;
+  
+}
+
+
+th,
+td {
+  padding: 50px;
+}
+
+
+th {
+  letter-spacing: 3px;
+}
+
+td {
+  letter-spacing: 1.5px;
+}
+
+tbody td {
+  text-align: right;
+}
+
+tfoot th {
+  text-align: center;
+}
+
+th{
+background-color: #32a88f;
+}
+
+th:hover
+{
+background-color: #a6a832;
+color:black;
+font-size:50px;
+}
+
+caption
+{
+border: solid 10px;
+}
+
+
